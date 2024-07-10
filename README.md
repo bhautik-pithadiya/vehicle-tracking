@@ -27,9 +27,7 @@ You can now open the app in your web browser at http://localhost:8501.
 
 The app provides the following functionality:
 
-- Detect Vehicle from image
-- Track vehicles from video
-- Count Vehicle (in/out) from video
+- Count and Tracking of Vehicles (in/out) from video
 
 
 ## References

@@ -100,7 +100,7 @@ class StreamlitApp:
     def setup_ui(self):
         st.title("Vehicle Tracking")
         st.sidebar.title("Settings")
-        app_mode = st.sidebar.selectbox("Choose the app mode", ["About App", "Count Vehicles From Video"])
+        app_mode = st.sidebar.selectbox("Choose the app mode", ["About App", "Count and Tracking of Vehicles From Video"])
 
         if app_mode == "About App":
             st.markdown("## This app is used to track vehicles in a video using **YOLOv8** & **DeepSORT**")
